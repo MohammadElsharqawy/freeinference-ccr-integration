@@ -80,7 +80,7 @@ http://127.0.0.1:3458
 ```
 
 
-![image1](images/image1.png)
+![CCR provider configuration](docs/images/image1.png)
 
 
 ## Step 4. Add FreeInference as a Provider
@@ -188,7 +188,7 @@ Haiku model:   Keep Claude Code default
 ```
 
 
-![image2](images/image2.png)
+![Claude Code agent profile](docs/images/image2.png)
 
 
 The initial request path should be:
@@ -212,7 +212,7 @@ FreeInference/qwen3.6-35b
 
 CCR will launch Claude Code using the configuration associated with that profile.
 
-![image3](images/image3.png)
+![Claude Code using FreeInference](docs/images/image3.png)
 
 Send a simple verification prompt, for example:
 
