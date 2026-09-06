@@ -286,7 +286,6 @@ Streaming was also successfully verified.
 After the single-model setup works, add:
 
 ```text
-FreeInference/minimax-m3
 FreeInference/deepseek-v4-flash
 ```
 
