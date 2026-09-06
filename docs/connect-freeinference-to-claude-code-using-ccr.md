@@ -107,7 +107,6 @@ CCR should fetch the models exposed by FreeInference.
 The following models were detected during the verified setup:
 
 ```text
-minimax-m3
 qwen3.6-35b
 deepseek-v4-flash
 bge-m3
@@ -118,7 +117,6 @@ For Claude Code, start with the chat/coding models:
 
 ```text
 qwen3.6-35b
-minimax-m3
 deepseek-v4-flash
 ```
 
@@ -305,9 +303,9 @@ Once the basic integration is stable, CCR routing can be explored.
 For example:
 
 ```text
-                 +--> qwen3.6-35b
-Claude Code --> CCR --> minimax-m3
-                 +--> deepseek-v4-flash
+                    +--> qwen3.6-35b
+Claude Code --> CCR 
+                    +--> deepseek-v4-flash
 ```
 
 Keep routing disabled until each model has been tested independently.
